@@ -1,4 +1,4 @@
-#Dictionary in Python
+'''#Dictionary in Python
 #Creating a dictionary
 car = {"Company": "Ford",
        "Model": "Mustang",
@@ -21,5 +21,12 @@ print(car)
 
 #Looping through a dictionary
 for key in car:
-    print(f"{key}: {car[key]}")
+    print(f"{key}: {car[key]}")'''
 
+
+
+alien_0 = {'color':'green'}
+print(f"Colour is {alien_0['color']}")
+
+alien_0['color'] = 'yellow'
+print(alien_0['color'])

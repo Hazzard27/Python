@@ -1,6 +1,6 @@
 #Using if else statements in Python
 #If-Else example
-num = int(input("Enter a number: "))
+'''num = int(input("Enter a number: "))
 if num > 0:
     print(f"{num} is a positive number")
 else:
@@ -32,4 +32,30 @@ else:
 if not(age < 18):
     print("You are an adult")
 else:
-    print("You are a minor")
+    print("You are a minor")'''
+
+
+
+
+username = []
+count = 5
+while(count > 0):
+    a = input("Enter username: ")
+    username.append(str(a))
+    count -=1 
+
+for uname in username:
+    if uname == 'admin':
+        print(f"Hello {uname.title()} would you like to see a status report?")
+    else:
+        print(f"Hello {uname.title()} thank you for logging in again")    
+
+
+print(username)
+
+      
+      
+      
+      
+      
+      
